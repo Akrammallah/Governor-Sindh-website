@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import img from "@/componants/images/logo.9ff76f62.png"
-import { GiHamburgerMenu } from "react-icons/gi";
 
 
 const Navbar = () => {
