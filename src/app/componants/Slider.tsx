@@ -16,7 +16,7 @@ export function ImagesSliderDemo() {
     "https://www.governorsindh.com/_next/static/media/slideShow5.b502aa01.jpg"
   ];
   return (
-    <ImagesSlider className="container h-[25rem] sm:w-[40rem] sm:ml-48 sm:mr-0 m-auto mr-6  mt-12 rounded w-screen sm:items-center" images={images}>
+    <ImagesSlider className="container h-[25rem] sm:w-[100%]  sm:mr-6 m-auto mr-6  mt-12 rounded w-screen " images={images}>
       <motion.div
         initial={{
           opacity: 0,
